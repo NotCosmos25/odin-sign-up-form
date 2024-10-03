@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+
+    <div class="side-bar">
+        <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="not working image?"
+            class="side-bar-background-image">
+
+        <div class="side-bar-title-section">
+            <img class="odin-logo" src="./images/odin-logo.png" alt="odin logo should be showing..">
+            <p class="side-bar-title"> ODIN</p>
+
+        </div>
+
+    </div>
+
+    <div class="body-section">
+
+        <div class="body-heading-section">
+            <p class="body-heading">
+                This is not a real online service! You know you need something like this in your life to help you
+                realise your
+                deepest dreams. Sign up <i>now</i> to get started.
+            </p>
+
+            <p class="body-heading">
+                You <i> know </i> you want to.
+            </p>
+
+        </div>
+
+        <div class="form-section">
+
+            <div class="form-heading-section">
+                <p class="body-heading">
+                    Let's do this!
+                </p>
+            </div>
+
+            <form action="./submitted.html">
+
+                <div class="form-input-section">
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="" class="f-label"> FIRST NAME</label>
+                            <input type="text" class="f-input" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="" class="f-label"> LAST NAME </label>
+                            <input type="text" class="f-input" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="" class="f-label">EMAIL </label>
+                            <input type="email" class="f-input" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="" class="f-label"> PHONE NUMBER</label>
+                            <input type="tel" class="f-input" required pattern="\d{3}[ -.]?\d{3}[ -.]?\d{4}">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-item" id="password-item">
+                            <label for="" class="f-label" "> PASSWORD</label>
+                            <input type=" text" class="f-input" id="input-password" required>
+                        </div>
+
+                        <div class="form-item" id="password-item2">
+                            <label for="" class="f-label"> CONFIRM PASSWORD</label>
+                            <input type="text" class="f-input" id="confirm-password" id="confirm-password" required>
+
+                        </div>
+                    </div>
+
+                </div>
+
+        </div>
+
+        <div class="submit-section">
+            <button type="submit" class="create-account-btn" >Create Account</button>
+            <p class="log-in-text">Already have an account? <a class="log-in" href="/">Log in </a></p>
+        </div>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
